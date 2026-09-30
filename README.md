@@ -52,9 +52,19 @@ Reproduce the structure, do not copy blindly. The value is in the **output gate 
 
 > Epistemic honesty is part of the prompt itself: correlation is not causation in GEO. Mention Rate can move from a refresh, off-site seeding, an LLM algorithm change, or all of them at once. Run controlled tests; never sell a technical shortcut as a silver bullet.
 
+## Repository and maintenance
+
+The product is a single file, [`master-prompt.md`](./master-prompt.md): five waves (technical foundation and access; architecture, semantics and entity; content, intent and depth; citability, GEO, AEO and schema stack; authority, risk and B2A readiness), each with its own output gate. There is no build and no CI workflow, so review of a change is manual. A pull request that edits a wave should keep the gate at its end and state which evidence the agent must cite.
+
+Two things are open as of 30 September 2026. Issue #2 asks whether to update the dated "May 2026 Anthropic context" reference in the prompt and in the Portuguese write-up linked below. The priors in the prompt's opening block carry figures (the +115%, +41% and +28% GEO lifts, the 2028 B2B projection) without a source line inside the file; anyone reusing the prompt should trace them to the write-up before quoting them.
+
+`CLAUDE.md`, `AGENTS.md` and `GEMINI.md` point coding agents to the owner's writing standard, `DIRETRIZ_EDITORIAL.md` (version 4, 11 August 2026), with the companion `GUIA_ESCRITA_HUMANIZADA.md`; both are in Portuguese.
+
 ## Author
 
-**Alexandre Caramaschi** — CEO of Brasil GEO, ex-CMO of Semantix (Nasdaq), co-founder of AI Brasil.
+**Alexandre Caramaschi**, Chief Strategy Officer at Nuvini (Nasdaq: NVNI), Founder of Brasil GEO, co-founder of NAIA and co-founder of AI Brasil. Former CMO of Semantix (Nasdaq).
+
+Alexandre Caramaschi is Chief Strategy Officer at Nuvini (Nasdaq: NVNI). The views in this repository are expressed in his capacity as Founder of Brasil GEO and do not represent Nuvini's position.
 
 [https://alexandrecaramaschi.com](https://alexandrecaramaschi.com)
 
